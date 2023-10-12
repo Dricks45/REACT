@@ -1,5 +1,6 @@
 import PokemonCard from "./components/PokemonCard.jsx";
 
+
 const pokemonList = [
   {
   name: "bulbasaur",
@@ -16,7 +17,7 @@ function App() {
   return  (
     <>
       <div>
-        <PokemonCard pokemon={altpokemon}/>
+        <PokemonCard altpokemon={altpokemon}/>
       </div>
     </>
   );
